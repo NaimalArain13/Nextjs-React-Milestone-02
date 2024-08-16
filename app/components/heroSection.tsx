@@ -11,7 +11,7 @@ export default function HeroSection() {
               <GoDotFill />{" "}
        
             </p>
-            <p>`It's` me <b>Naimal Salahuddin</b></p>
+            <p>`It&#39;s me <b>Naimal Salahuddin</b></p>
           </button>
         </div>
         <div className="flex justify-center bg-bg pt-7">
