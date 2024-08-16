@@ -1,0 +1,52 @@
+"use client";
+import Image from "next/image"
+import AOS from "aos";
+import "aos/dist/aos.css"
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+import { HiDotsHorizontal } from "react-icons/hi";
+import { GoDotFill } from "react-icons/go";
+import { useEffect } from "react";
+interface Props {
+    title:string,
+    description:string,
+    img:string
+    route:string
+}
+export default function ProjectCard({prop}:{prop:Props}){
+    useEffect(()=>{
+        AOS.init({})
+      },[])
+    return(
+       
+    <div className="h-[500px] w-[570px] border-1  bg-text rounded-lg px-1" data-aos="fade-right"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1500">
+        <div className="flex flex-row pl-2">
+            <p className="text-bg"><GoDotFill /></p>
+            <p className="text-bg"><GoDotFill /></p>
+            <p className="text-bg"><GoDotFill /></p>
+        </div>
+        <Image 
+        src={`${prop.img}`}
+        alt={""}
+        height={0}
+        width={1440}
+        className="h-[380px] pb-4 pt-1 rounded-2xl rounded-b-2xl transition-transform hover:scale-95"
+        />
+       <Link href={prop.route} className="group block">
+    <div className="pl-5 pt-2 flex items-center justify-between">
+        <div className="pb-3">
+            <h1 className="text-1xl text-bg font-bold">{prop.title}</h1>
+            <p className="text-bg text-md ">{prop.description}</p>
+        </div>
+        <div className="transform transition-transform pr-2 duration-300 group-hover:rotate-45">
+            <MdArrowOutward className="text-white" />
+        </div>
+    </div>
+</Link>
+        
+    </div>
+  
+    )
+}
