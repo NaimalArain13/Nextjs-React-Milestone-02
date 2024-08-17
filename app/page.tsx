@@ -9,18 +9,15 @@ export default function Home() {
   //   img: "/image.jpg",
   // };
   return (
-    <div className="bg-bg container mx-auto py-4 px-8 min-h-screen border-2 border-opacity-5 border-neutral-200">
+    <div className="bg-bg border-2 border-opacity-5 border-neutral-200">
       <HeroSection />
-      <br /> <br /> <br />
-      <div className="pt-20" id="project">
+      <div id="project">
         <Project />
       </div>
-      <br /> <br />
-      <div className="pt-20" id="about">
+      <div id="about">
         <About />
       </div>
-      <br /> <br />
-      <div className="pt-20" id="contact">
+      <div id="contact">
         <Contact />
       </div>
     </div>
