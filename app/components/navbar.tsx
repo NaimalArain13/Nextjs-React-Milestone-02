@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +29,7 @@ export default function Navbar() {
       {/* Menu button for mobile view */}
       <div className="md:hidden">
         <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
-          {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+          {/* {isOpen ? <FiX size={24} /> : <FiMenu size={24} />} */}
         </button>
       </div>
 
