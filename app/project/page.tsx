@@ -30,6 +30,7 @@ export default function Project() {
   ];
 
   return (
+    <div className="container mx-auto overflow-x-hidden px-6 lg:px-20">
     <div className="bg-bg p-4">
       <h1 className="flex items-center justify-center pt-8 pb-16 text-5xl font-bold tracking-widest bg-gradient-to-r from-black to-cyan-100 bg-clip-text text-transparent">
         Featured Projects
@@ -40,6 +41,7 @@ export default function Project() {
           <ProjectCard key={index} prop={project} />
         ))}
       </div>
+    </div>
     </div>
   );
 }

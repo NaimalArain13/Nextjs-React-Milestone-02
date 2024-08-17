@@ -6,11 +6,11 @@ export default function Contact() {
           Contact Me
         </h1>
       </div>
-      <div className="container mx-auto px-6 lg:px-20">
+      <div className="container mx-auto overflow-x-hidden px-6 lg:px-20">
         <div className="max-w-lg mx-auto bg-text p-8 shadow-md rounded-lg">
           <form>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="name">
+              <label className="block text-white mb-2" htmlFor="name">
                 Name
               </label>
               <input
@@ -22,7 +22,7 @@ export default function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="email">
+              <label className="block text-white mb-2" htmlFor="email">
                 Email
               </label>
               <input
@@ -34,7 +34,7 @@ export default function Contact() {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="message">
+              <label className="block text-white mb-2" htmlFor="message">
                 Message
               </label>
               <textarea

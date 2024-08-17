@@ -9,9 +9,9 @@ export default function Home() {
     img: "/./image.jpg",
   };
   return (
-    <div className="bg-bg mx-auto min-h-screen border-2 border-opacity-5 border-neutral-200">
+    <div className="bg-bg container mx-auto overflow-x-hidden min-h-screen border-2 border-opacity-5 border-neutral-200">
       <HeroSection />
-      <br /> <br />
+      <br /> <br /> <br />
       <div className="pt-20" id="project">
         <Project />
       </div>

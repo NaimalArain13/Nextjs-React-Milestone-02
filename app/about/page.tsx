@@ -22,7 +22,7 @@ export default function About() {
           About Me
         </h1>
       </div>
-      <div className="space-y-4">
+      <div className="container mx-auto overflow-x-hidden px-6 lg:px-20 space-y-4">
         <div className="flex flex-col md:flex-row justify-center gap-3">
           <div
             className="h-[355px] w-full md:w-[755px] border-neutral-600 text-bg bg-text rounded-3xl"
