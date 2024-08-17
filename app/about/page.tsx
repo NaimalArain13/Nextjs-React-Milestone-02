@@ -30,14 +30,13 @@ export default function About() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1500"
           >
-            <p className="flex items-center pt-16 px-14 text-lg">
+            <p className="flex items-center pt-9 px-14 text-md">
               I am Naimal.
               <br />
-              <br />
-              I am a dedicated and passionate web developer with a knack for
-              creating intuitive and dynamic user interfaces. My journey in web
-              development has been fueled by a love for coding and a desire to
-              constantly learn and improve.
+              <br />I am a dedicated and passionate web developer with a knack
+              for creating intuitive and dynamic user interfaces. My journey in
+              web development has been fueled by a love for coding and a desire
+              to constantly learn and improve.
             </p>
           </div>
           <div
@@ -49,10 +48,11 @@ export default function About() {
             <div className="flex justify-center pt-20">
               <Image
                 src={"/./profile.jpg"}
-                width={200}
-                height={0}
+                width={150}
+                height={20}
                 alt=""
-                className="rounded-full"
+                className="rounded-full w-auto h-auto"
+                // style={{ height: "auto" , width:"auto"}} 
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function About() {
             <p className="flex justify-center text-bg pt-5 text-lg">
               My Tech Stack
             </p>
-            <div className="flex  sm:flex-row space-x-9  text-5xl pt-14 p-1 text-neutral-500">
+            <div className="flex  flex-row items-center justify-center  space-x-1  text-5xl pt-14 text-neutral-500">
               <p className="text-blue-600 ">
                 <FaCss3Alt />
               </p>

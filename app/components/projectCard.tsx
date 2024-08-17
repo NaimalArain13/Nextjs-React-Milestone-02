@@ -19,7 +19,7 @@ export default function ProjectCard({prop}:{prop:Props}){
       },[])
     return(
        
-    <div className="h-[500px] w-[570px] border-1  bg-text rounded-lg px-1" data-aos="fade-right"
+    <div className="w-full h-[350px] sm:h-[400px] border-1  bg-text rounded-lg px-1" data-aos="fade-right"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1500">
         <div className="flex flex-row pl-2">
@@ -32,7 +32,7 @@ export default function ProjectCard({prop}:{prop:Props}){
         alt={""}
         height={0}
         width={1440}
-        className="h-[380px] pb-4 pt-1 rounded-2xl rounded-b-2xl transition-transform hover:scale-95"
+        className="w-full h-[65%] pb-4 pt-1 rounded-2xl rounded-b-2xl transition-transform hover:scale-95"
         />
        <Link href={prop.route} className="group block">
     <div className="pl-5 pt-2 flex items-center justify-between">

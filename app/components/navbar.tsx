@@ -21,9 +21,9 @@ export default function Navbar() {
       {/* Hidden on mobile, shown on larger screens */}
       <nav className="hidden md:flex gap-14">
         <ul className="flex gap-14 font-semibold">
-          <li><Link href="/project" className="hover:underline underline-offset-2">Projects</Link></li>
-          <li><Link href="/about" className="hover:underline underline-offset-2">Info</Link></li>
-          <li><Link href="/contact" className="hover:underline underline-offset-2">Contact Me</Link></li>
+          <li><Link href="#project" className="hover:underline underline-offset-2">Projects</Link></li>
+          <li><Link href="#about" className="hover:underline underline-offset-2">Info</Link></li>
+          <li><Link href="#contact" className="hover:underline underline-offset-2">Contact Me</Link></li>
         </ul>
       </nav>
 
@@ -38,9 +38,9 @@ export default function Navbar() {
       {isOpen && (
         <nav className="absolute top-16 left-0 right-0 bg-text text-center">
           <ul className="flex flex-col gap-4 py-4 text-bg">
-            <li><Link href="/project" className="hover:underline underline-offset-2">Projects</Link></li>
-            <li><Link href="/about" className="hover:underline underline-offset-2">Info</Link></li>
-            <li><Link href="/contact" className="hover:underline underline-offset-2">Contact Me</Link></li>
+            <li><Link href="#project" className="hover:underline underline-offset-2">Projects</Link></li>
+            <li><Link href="#about" className="hover:underline underline-offset-2">Info</Link></li>
+            <li><Link href="#contact" className="hover:underline underline-offset-2">Contact Me</Link></li>
           </ul>
         </nav>
       )}

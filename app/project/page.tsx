@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 import ProjectCard from "../components/projectCard";
 
 export default function Project() {
@@ -35,7 +35,7 @@ export default function Project() {
         Featured Projects
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8 p-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 p-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} prop={project} />
         ))}
