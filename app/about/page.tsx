@@ -45,15 +45,14 @@ export default function About() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1500"
           >
-            <div className="flex justify-center pt-20">
-              <Image
-                src={"/./profile.jpg"}
-                width={150}
-                height={20}
-                alt=""
-                className="rounded-full w-auto h-auto"
-                // style={{ height: "auto" , width:"auto"}} 
-              />
+            <div className="flex justify-center pt-14">
+            <Image
+            src={"/dp.png"}
+            alt="Profile Picture"
+            width={200} // Increased size
+            height={0} // Increased size
+            className="rounded-full shadow-lg h-auto"
+          />
             </div>
           </div>
         </div>

@@ -16,11 +16,11 @@ export default function HeroSection() {
         </div>
         <div className="flex justify-center bg-bg pt-7">
           <Image
-            src={"/./dp.jpg"}
+            src={"/dp.png"}
             width={70}
-            height={70}
+            height={0}
             alt=""
-            className="rounded-full"
+            className="rounded-full w-auto"
           />
         </div>
         <div className="bg-gradient-to-r from-black to-cyan-200 tracking-widest bg-clip-text text-transparent flex flex-col items-center justify-center pt-6">

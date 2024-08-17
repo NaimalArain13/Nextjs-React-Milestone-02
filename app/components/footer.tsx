@@ -44,11 +44,11 @@ export default function Footer() {
         {/* Logo or Image */}
         <div className="flex justify-center">
           <Image
-            src="/./dp.jpg"
+            src="/dp.png"
             alt="Footer Image"
             width={50}
-            height={50}
-            className="rounded-full"
+            height={0}
+            className="rounded-full h-auto"
           />
         </div>
 
