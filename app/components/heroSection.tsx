@@ -16,7 +16,7 @@ export default function HeroSection() {
         </div>
         <div className="flex justify-center bg-bg pt-7">
           <Image
-            src={"/dp.png"}
+            src={"/dp.jpg"}
             width={70}
             height={0}
             alt=""

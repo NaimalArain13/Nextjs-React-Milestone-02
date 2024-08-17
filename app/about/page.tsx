@@ -47,7 +47,7 @@ export default function About() {
           >
             <div className="flex justify-center pt-14">
             <Image
-            src={"/dp.png"}
+            src={"/dp.pjg"}
             alt="Profile Picture"
             width={200} // Increased size
             height={0} // Increased size
