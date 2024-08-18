@@ -20,7 +20,7 @@ export default function Home() {
         <About />
       </div>
       <br /> <br />
-      <div className="pt-20" id="contact">
+      <div className="pt-18" id="contact">
         <Contact />
       </div>
     </div>
