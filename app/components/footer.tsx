@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-// import { FaLinkedin, FaGithub } from "react-icons/fa6";
-// import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 // import UpsideFooter from "./upFooter";
 
 export default function Footer() {
@@ -59,21 +59,21 @@ export default function Footer() {
             aria-label="Facebook"
             className="hover:text-white"
           >
-            {/* <FaFacebook /> */}
+            <FaFacebook />
           </Link>
           <Link
             href="//www.linkedin.com/in/naimal-arain-/"
             aria-label="LinkedIn"
             className="hover:text-white"
           >
-            {/* <FaLinkedin /> */}
+            <FaLinkedin />
           </Link>
           <Link
             href="//github.com/NaimalArain13"
             aria-label="GitHub"
             className="hover:text-white"
           >
-            {/* <FaGithub /> */}
+            <FaGithub />
           </Link>
         </div>
 
